@@ -1,13 +1,83 @@
-*{
+* {
     margin: 0;
     padding: 0;
+  }
+ 
+.Contenedor_Principal{
+    margin: auto;
+    width: 1440px;
+    width: max-content;
+
 }
 
-.contenedorcristhian{
+  /* Comienzo De Marco */
+  .header{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border-bottom-left-radius: 20%;
+    height: 550px;
+}
+
+.signupbutton{
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white
+}
+
+.p-custom{
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.startfrombutton{
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white;
+    padding: 10px;
+}
+
+.learnmorebutton{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white;
+    padding: 10px;
+}
+
+.moderntext{
+    font-size: 60px;
+}
+
+.whitetransparent{
+    opacity: 0.6;
+}
+
+.fakedropdown {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border: none;
+}
+
+
+.fakedropdown:hover {
+    background-color: inherit !important;
+    color: inherit !important; 
+  }
+  /* Termino de Marco */
+
+  /* Comienzo Cristhian m */
+   .contenedorcristhian{
     width: 1440px;
     margin: auto;
+    max-width: 1440px;
    
-    margin-top: 50px;
+    margin-top: 100px;
       
     
 }
@@ -17,13 +87,15 @@
     justify-content: center;
     font-size: 25px;
     color: hsl(228, 45%, 44%); 
-    
-    position: absolute;
     width: 55%;
     margin: auto;
-    margin-left: 20%;
+    margin-left: 17%;
+    margin-bottom: 30px;
+  
     
-    
+}
+.text_one{
+   
 }
 
 .contenedor_one{
@@ -41,12 +113,12 @@
     font-weight: bold;
     font-size: 20px;
     color: hsl(228, 45%, 44%); 
-    margin-top: 60px;
+    
 }
 .text_three{
     
    margin: auto;
-   width: 40%;
+   width: 60%;
    
 }
 .imgencristhian{
@@ -59,8 +131,152 @@
 .tittle_three{
     margin: auto;
     width: 40%;
-    margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
     color: hsl(228, 45%, 44%); 
+}
+
+
+/* Comienzo de Cesar */
+
+   .mainCesar{
+    margin-top: 50px;
+     margin: 0 auto;
+     width: 1440PX;
+    height:375px ;
+    background: hsl(237, 23%, 32%);
+    color: white;
+    
+
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-size:60%;
+    background-position:top;
+    background-position:left;
+    background-repeat: no-repeat;
+    display: flex;
+   
+} 
+
+.imgCelular{
+    margin-top: 50px;
+    width: 650px;
+    height: 540px;
+    margin-bottom: 50px;
+}
+
+.tex1{
+    font-size: 38px;
+    letter-spacing: 5px;
+
+
+   
+}
+.containertex{
+
+  margin-left: 90px;
+    width: 580px;
+   
+}
+.cesar{
+    display: flex;
+    align-items: center;
+ }
+.lorean{
+    margin-top: 30px;
+} 
+
+/* Comienzo de Rafael */
+
+  .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+  }
+
+  .div_rafael {
+    width: 555px;
+    height: 550px;
+  }
+
+  .imagen {
+    height: 300px;
+  }
+
+  .h2_rafael{
+    font-family: Ubuntu;
+    font-size: 32px;
+    margin-top: 50px;
+  }
+
+  p {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-family: Overpass;
+    font-size: 16px;
+  }
+/* Inicio de Footer Cristhian Medina */
+  .fotter{
+    width: 1440px;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    border-top-right-radius: 50px;
+
+}
+.blog{
+    margin-top: -150px;
+    color: white;
+    
+}
+.uno{
+   
+    list-style: none;
+    font-weight: bold;
+    line-height: 30px;
+    color: rgb(109, 108, 108);
+    text-decoration: none;
+    
+    
+}
+.liuno{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+  /* media query - colocar diferentes medidas  */
+
+@media screen and (max-width: 900px) {
+    body{
+        font-size: 16px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Container div {
+        width: 375px;
+        margin-bottom: 10px;
+      }
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        font-size: 16px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Container div {
+        width: 375px;
+        margin-bottom: 10px;
+      }
 }
