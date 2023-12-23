@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* /* background: hsl(237, 17%, 21%); */
+/* background: hsl(237, 23%, 32%); */
+
+.mainCesar{
+    margin-top: 50px;
+    /* margin: 0 auto; */
+    width: 1440PX;
+    height:375px ;
+    background: hsl(237, 23%, 32%);
+    color: white;
+    
+
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-size:60%;
+    background-position:top;
+    background-position:left;
+    background-repeat: no-repeat;
+    display: flex;
+   
+}
+
+.imgCelular{
+    margin-top: 50px;
+    width: 650px;
+    height: 540px;
+    /* margin-bottom: 50px; */
+
+
+  
+}
+
+.tex1{
+    font-size: 38px;
+    letter-spacing: 5px;
+
+
+   
+}
+.containertex{
+
+  margin-left: 90px;
+    width: 580px;
+    /* border: solid blue; */
+}
+.cesar{
+    display: flex;
+    align-items: center;
+}
+.lorean{
+    margin-top: 30px;
+}
