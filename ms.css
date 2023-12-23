@@ -1,0 +1,59 @@
+
+.header{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border-bottom-left-radius: 20%;
+    height: 550px;
+}
+
+.signupbutton{
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white
+}
+
+.p-custom{
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.startfrombutton{
+    background-color: white;
+    color: hsl(355, 100%, 74%);
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white;
+    padding: 10px;
+}
+
+.learnmorebutton{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    font-weight: bold;
+    border-radius: 40%;
+    border-color: white;
+    padding: 10px;
+}
+
+.moderntext{
+    font-size: 60px;
+}
+
+.whitetransparent{
+    opacity: 0.6;
+}
+
+.fakedropdown {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border: none;
+}
+
+
+.fakedropdown:hover {
+    background-color: inherit !important;
+    color: inherit !important; 
+  }
