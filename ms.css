@@ -45,3 +45,15 @@
 .whitetransparent{
     opacity: 0.6;
 }
+
+.fakedropdown {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border: none;
+}
+
+.fakedropdown:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    border: none;
+}
