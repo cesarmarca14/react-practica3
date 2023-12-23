@@ -52,8 +52,8 @@
     border: none;
 }
 
+
 .fakedropdown:hover {
-    background-color: hsl(355, 100%, 74%);
-    color: white;
-    border: none;
-}
+    background-color: inherit !important;
+    color: inherit !important; 
+  }
