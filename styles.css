@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: left;
+  }
+
+  .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+
+  div {
+    width: 375px;
+    height: 375px;
+  }
+
+  .imagen {
+    height: 300px;
+  }
+
+  h2{
+    font-family: Ubuntu;
+    font-size: 32px;
+  }
+
+  p {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-family: Overpass;
+    font-size: 16px;
+  }
+
+  /* media query - colocar diferentes medidas  */
+
+@media screen and (max-width: 900px) {
+    body{
+        font-size: 16px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Container div {
+        width: 375px;
+        margin-bottom: 10px;
+      }
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        font-size: 16px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Container div {
+        width: 375px;
+        margin-bottom: 10px;
+      }
+}
