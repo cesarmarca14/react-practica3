@@ -3,64 +3,36 @@
     padding: 0;
 }
 
-.contenedorcristhian{
+
+
+.fotter{
     width: 1440px;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: space-around;
     margin: auto;
-   
-    margin-top: 50px;
-      
+    height: 300px;
+    align-items: center;
+
+}
+.blog{
+    margin-top: -150px;
+    color: white;
     
 }
-.tittle_one{
+.uno{
+   
+    list-style: none;
+    font-weight: bold;
+    line-height: 30px;
+    color: rgb(109, 108, 108);
+    text-decoration: none;
     
-    display: flex;
-    justify-content: center;
+    
+}
+.liuno{
+    color: white;
     font-size: 25px;
-    color: hsl(228, 45%, 44%); 
-    
-    position: absolute;
-    width: 55%;
-    margin: auto;
-    margin-left: 20%;
-    
-    
-}
-
-.contenedor_one{
-    display: flex;
-}
-
-
-.tittle_two{
-    
-    margin: auto;
-    width: 40%;
-  
-   margin-bottom: 10px;
-  
     font-weight: bold;
-    font-size: 20px;
-    color: hsl(228, 45%, 44%); 
-    margin-top: 60px;
-}
-.text_three{
-    
-   margin: auto;
-   width: 40%;
-   
-}
-.imgencristhian{
-    margin-top: -60px;
-    height: 500px;
-    width: 600px;
-    
-  
-}
-.tittle_three{
-    margin: auto;
-    width: 40%;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    color: hsl(228, 45%, 44%); 
+    margin-bottom: 20px;
 }
